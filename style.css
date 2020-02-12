@@ -57,6 +57,79 @@ header .navbar {
   font-weight: 500;
 }
 
+main .search-container {
+  position: relative;
+  background: url("images/hero.jpg") 0 0/cover no-repeat;
+  height: 75vh;
+  color: #fff;
+}
+
+.search-container .overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.search-container .content {
+  height: 100%;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.search-container .heading {
+  font-size: 25px;
+}
+
+.content form {
+  width: 46%;
+  margin: 20px auto;
+  border-radius: 10px;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.644);
+}
+
+form .search-label {
+  color: #000;
+  font-size: 13px;
+  font-weight: bold;
+  padding-bottom: 20px;
+  line-height: 25px;
+}
+
+form #search {
+  padding: 11px;
+  width: 79%;
+  border: 0;
+  font-size: 18px;
+}
+
+form .search-btn {
+  width: 20%;
+  padding: 11px;
+  background-color: #d35649;
+  color: #fff;
+  border: 0;
+  line-height: 21px;
+}
+
+.content .how {
+  color: #000;
+  background-color: rgb(196, 196, 196);
+  padding: 10px;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: none;
+}
+
 /* Styles for tablet devices */
 
 @media screen and (max-width: 1024px) {
@@ -77,6 +150,20 @@ header .navbar {
   .menu-item .menu-text {
     display: none;
   }
+
+  .content form {
+    padding: 15px;
+    width: 55%;
+  }
+
+  form #search {
+    width: 100%;
+  }
+
+  form .search-btn {
+    width: 100%;
+    margin-top: 10px;
+  }
 }
 
 /* Styles for mobile devices */
@@ -89,5 +176,14 @@ header .navbar {
 
   .navbar .menu {
     margin: 20px auto 10px;
+  }
+
+  .search-container .heading {
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  .content form {
+    width: 92%;
   }
 }
