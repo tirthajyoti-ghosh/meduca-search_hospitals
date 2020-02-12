@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background-color: #d35649;
+}
+
+header .navbar {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  padding: 20px;
+  align-items: center;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.navbar .logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.logo .logo-img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.navbar .menu {
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+}
+
+.menu .menu-item {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+/* Styles for tablet devices */
+
+@media screen and (max-width: 1024px) {
+  header .navbar {
+    display: block;
+    width: 50%;
+  }
+
+  .navbar .logo {
+    justify-content: center;
+  }
+
+  .navbar .menu {
+    width: 80%;
+    margin: 20px auto 10px;
+  }
+
+  .menu-item .menu-text {
+    display: none;
+  }
+}
+
+/* Styles for mobile devices */
+
+@media screen and (max-width: 768px) {
+  header .navbar {
+    display: block;
+    width: 70%;
+  }
+
+  .navbar .menu {
+    margin: 20px auto 10px;
+  }
+}
