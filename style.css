@@ -376,6 +376,65 @@ footer .footer {
   text-decoration: underline;
 }
 
+main .filter-section {
+  background-color: #eee;
+  margin: 50px 0;
+  padding: 50px;
+}
+
+.filter-section .filter-title {
+  text-align: center;
+  color: #91939a;
+  padding-bottom: 30px;
+}
+
+.filter-section .filter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.filter-container .filter {
+  padding: 20px 5px;
+}
+
+.filter .filter-label {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 13px;
+  color: #474747;
+  line-height: 25px;
+}
+
+.filter input,
+.filter select {
+  border: 0;
+  border-radius: 3px;
+  font-size: 15px;
+  padding: 7px;
+  width: 100%;
+}
+
+.filter-container .buttons {
+  color: #fff;
+  margin: 20px 0 0 10px;
+}
+
+.buttons .filter-search,
+.buttons .filter-clear {
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.buttons .filter-search {
+  background-color: #457db4;
+}
+
+.buttons .filter-clear {
+  background-color: #e5ab5a;
+}
+
 /* Styles for tablet devices */
 
 @media screen and (max-width: 1024px) {
@@ -437,6 +496,25 @@ footer .footer {
 
   .copyright .line-break {
     display: block;
+  }
+
+  .filter-section .filter-container {
+    flex-direction: column;
+  }
+
+  .filter-container .filter {
+    width: 50%;
+  }
+
+  .filter-container .buttons {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .buttons .filter-search,
+  .buttons .filter-clear {
+    margin: 8px;
   }
 }
 
@@ -534,6 +612,14 @@ footer .footer {
     padding: 20px 0;
   }
 
+  .subscribe #subscribe {
+    width: 80%;
+  }
+
+  .subscribe button {
+    width: 20%;
+  }
+
   footer .footer {
     flex-direction: column;
     align-items: center;
@@ -551,5 +637,14 @@ footer .footer {
 
   .copyright .mobile-line-break {
     display: block;
+  }
+
+  main .filter-section {
+    padding: 50px 20px;
+  }
+
+  .filter-container .filter {
+    width: 90%;
+    text-align: center;
   }
 }
