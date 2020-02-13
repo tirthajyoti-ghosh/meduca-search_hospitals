@@ -177,6 +177,77 @@ main .working {
   font-weight: 100;
 }
 
+main .feature-container {
+  padding: 100px 0;
+}
+
+.feature-container .feature {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 90px;
+  color: #fff;
+}
+
+.feature-container .feature1 {
+  background-color: #e17f65;
+}
+
+.feature-container .feature2 {
+  background-color: #99a4a5;
+}
+
+.feature-container .feature3 {
+  background-color: #509bd7;
+}
+
+.feature .feature-img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.feature3 .feature-img {
+  border-radius: 0%;
+  object-fit: contain;
+  width: 240px;
+  height: 250px;
+}
+
+.feature .text {
+  align-self: center;
+  padding: 0 10rem;
+  font-size: 15px;
+}
+
+.feature .feature-heading {
+  font-size: 17px;
+  padding: 10px 0;
+  letter-spacing: 2.5px;
+}
+
+.feature .feature-text {
+  padding: 5px 0 30px 0;
+}
+
+.feature .feature-btn {
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 2px;
+}
+
+.feature1 .feature-btn {
+  color: #e17f65;
+}
+
+.feature2 .feature-btn {
+  color: #99a4a5;
+}
+
+.feature3 .feature-btn {
+  color: #509bd7;
+}
+
 /* Styles for tablet devices */
 
 @media screen and (max-width: 1024px) {
@@ -219,6 +290,14 @@ main .working {
   .working-container .step {
     padding: 1rem 3rem;
   }
+
+  .feature-container .feature {
+    padding: 50px;
+  }
+
+  .feature .text {
+    padding: 0 3rem;
+  }
 }
 
 /* Styles for mobile devices */
@@ -254,5 +333,19 @@ main .working {
 
   .step .step-title {
     font-size: 18px;
+  }
+
+  .feature-container .feature {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature .feature-img {
+    order: 1;
+  }
+
+  .feature .text {
+    text-align: center;
+    order: 2;
   }
 }
