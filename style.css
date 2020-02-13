@@ -435,6 +435,38 @@ main .filter-section {
   background-color: #e5ab5a;
 }
 
+main .result-section {
+  margin: 50px 0;
+}
+
+.result-section .result-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.result-section .result-title {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  color: #5b5656;
+}
+
+.result-container .result {
+  display: block;
+  width: 30%;
+  margin: 10px;
+  height: 200px;
+  background: #d85e4b url("images/hospital.svg") 0 0/contain no-repeat;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 90px 0;
+}
+
 /* Styles for tablet devices */
 
 @media screen and (max-width: 1024px) {
@@ -515,6 +547,15 @@ main .filter-section {
   .buttons .filter-search,
   .buttons .filter-clear {
     margin: 8px;
+  }
+
+  .result-section .result-container {
+    width: 80%;
+  }
+
+  .result-container .result {
+    height: 150px;
+    padding: 70px 0;
   }
 }
 
@@ -635,6 +676,10 @@ main .filter-section {
     margin-right: 0;
   }
 
+  .footer .copyright {
+    text-align: center;
+  }
+
   .copyright .mobile-line-break {
     display: block;
   }
@@ -645,6 +690,13 @@ main .filter-section {
 
   .filter-container .filter {
     width: 90%;
-    text-align: center;
+  }
+
+  .result-section .result-container {
+    justify-content: center;
+  }
+
+  .result-container .result {
+    width: 65%;
   }
 }
