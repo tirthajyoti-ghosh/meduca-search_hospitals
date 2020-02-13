@@ -413,6 +413,7 @@ main .filter-section {
   font-size: 15px;
   padding: 7px;
   width: 100%;
+  background-color: #fff;
 }
 
 .filter-container .buttons {
