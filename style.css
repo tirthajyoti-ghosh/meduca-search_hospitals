@@ -32,7 +32,6 @@ header .navbar {
 }
 
 .navbar .logo {
-  font-family: 'Raleway', sans-serif;
   font-size: 30px;
   font-weight: bold;
   display: flex;
@@ -43,6 +42,12 @@ header .navbar {
   width: 30px;
   height: 30px;
   margin-right: 10px;
+}
+
+body .logo-text {
+  font-family: 'Raleway', sans-serif;
+  text-transform: lowercase;
+  font-size: 30px;
 }
 
 .navbar .menu {
@@ -130,6 +135,48 @@ form .search-btn {
   text-transform: none;
 }
 
+main .working {
+  padding: 100px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.working .working-title {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.working-title .logo-text {
+  color: #d35649;
+}
+
+.working .working-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.working-container .step {
+  width: 50%;
+  padding: 3rem 5rem;
+}
+
+.step .step-img {
+  width: 40px;
+  height: 40px;
+}
+
+.step .step-title {
+  text-transform: uppercase;
+  font-size: 17px;
+  padding: 20px 0;
+}
+
+.step .step-text {
+  font-size: 15px;
+  font-weight: 100;
+}
+
 /* Styles for tablet devices */
 
 @media screen and (max-width: 1024px) {
@@ -164,6 +211,14 @@ form .search-btn {
     width: 100%;
     margin-top: 10px;
   }
+
+  main .working {
+    padding: 50px;
+  }
+
+  .working-container .step {
+    padding: 1rem 3rem;
+  }
 }
 
 /* Styles for mobile devices */
@@ -185,5 +240,19 @@ form .search-btn {
 
   .content form {
     width: 92%;
+  }
+
+  .working-container .step {
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .step .step-img {
+    width: 55px;
+    height: 55px;
+  }
+
+  .step .step-title {
+    font-size: 18px;
   }
 }
