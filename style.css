@@ -452,6 +452,7 @@ main .result-section {
   font-size: 25px;
   font-weight: bold;
   color: #5b5656;
+  margin-bottom: 20px;
 }
 
 .result-container .result {
