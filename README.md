@@ -26,11 +26,11 @@
 - font-awesome
 - google fonts
 
-#### and deployed to GitHub
+#### and deployed to 000webhost
 
 ## Live Demo
 
-[Live Demo](https://rawcdn.githack.com/tirthajyoti-ghosh/newsweek-clone/ac5aea10be82e4300ef2b8f1b77a41f49f7833b9/index.html)
+[Live Demo](https://socialist-terms.000webhostapp.com/)
 
 ## 🤝 Contributing
 
