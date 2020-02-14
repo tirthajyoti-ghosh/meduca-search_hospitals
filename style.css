@@ -461,12 +461,95 @@ main .result-section {
   width: 30%;
   margin: 10px;
   height: 200px;
-  background: #d85e4b url("images/hospital.svg") 0 0/contain no-repeat;
+  background: #d85e4b url("images/hospital.svg") no-repeat center;
   font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
   padding: 90px 0;
+}
+
+main .hospital-container {
+  display: flex;
+  margin: 50px;
+}
+
+.hospital-container .hospital-title {
+  color: #d35649;
+  font-size: 30px;
+}
+
+.hospital-container .hospital-details {
+  flex: 1;
+  text-transform: uppercase;
+  padding: 0 20px;
+}
+
+.hospital-details .details-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 20px 20px 0;
+}
+
+.details-container .item-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.details-container .contact-details {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.details-container .details-text {
+  color: #d35649;
+}
+
+.contact-details .contact {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  font-size: 14px;
+  padding: 20px 20px 20px 0;
+}
+
+.contact .details-text {
+  text-transform: none;
+  font-size: 18px;
+}
+
+.details-container .details {
+  width: 80%;
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #aaa;
+  text-align: center;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.details .details-text {
+  font-size: 15px;
+}
+
+.hospital-container .hospital-images {
+  flex: 2;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hospital-images .images{
+  max-width: 50%;
+  padding: 10px;
+}
+
+.images img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
 }
 
 /* Styles for tablet devices */
@@ -540,12 +623,6 @@ main .result-section {
     width: 50%;
   }
 
-  .filter-container .buttons {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  }
-
   .buttons .filter-search,
   .buttons .filter-clear {
     margin: 8px;
@@ -558,6 +635,51 @@ main .result-section {
   .result-container .result {
     height: 150px;
     padding: 70px 0;
+  }
+  
+  main .hospital-container {
+    flex-direction: column;
+    margin: 50px 20px;
+  }
+
+  .hospital-container .hospital-title {
+    text-align: center;
+  }
+
+  .hospital-container .hospital-details {
+    padding: 0 3px;
+  }
+
+  .details-container .contact-details {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .hospital-details .details-container {
+    margin: 10px;
+    flex-direction: column;
+  }
+
+  .details-container .item-container{
+    justify-content: space-around;
+  }
+
+  .contact-details .contact {
+    padding: 20px 0 20px 0;
+  }
+
+  .contact-details .addr-break {
+    display: none;
+  }
+
+  .details-container .details {
+    width: 48%;
+    margin: 5px;
+  }
+
+  .hospital-container .hospital-images {
+    margin: 0 10px;
   }
 }
 
@@ -656,11 +778,11 @@ main .result-section {
   }
 
   .subscribe #subscribe {
-    width: 80%;
+    width: 100%;
   }
 
   .subscribe button {
-    width: 20%;
+    margin-top: 15px;
   }
 
   footer .footer {
@@ -694,11 +816,38 @@ main .result-section {
     width: 90%;
   }
 
+  .filter-container .buttons {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
   .result-section .result-container {
     justify-content: center;
   }
 
   .result-container .result {
     width: 65%;
+  }
+
+  .hospital-container .hospital-title {
+    text-align: left;
+  }
+
+  .hospital-container .hospital-details {
+    padding: 0 10px;
+  }
+
+  .details-container .details {
+    width: 100%;
+  }
+
+  .details-container .contact-details {
+    align-items: flex-start;
+    margin: 0;
+  }
+
+  .hospital-images .images {
+    max-width: 100%;
   }
 }
