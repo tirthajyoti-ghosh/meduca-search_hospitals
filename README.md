@@ -1,4 +1,4 @@
-# HTML-Capstone-Project
+# Meduca - Search hospitals
 
 ![demo image](images/demo.png)
 
