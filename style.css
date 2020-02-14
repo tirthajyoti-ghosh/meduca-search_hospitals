@@ -68,7 +68,7 @@ body .logo-text {
 
 main .search-container {
   position: relative;
-  background: url("images/hero.jpg") 0 0/cover no-repeat;
+  background: url('images/hero.jpg') 0 0 / cover no-repeat;
   height: 85vh;
   color: #fff;
 }
@@ -467,7 +467,7 @@ main .result-section {
   width: 30%;
   margin: 10px;
   height: 200px;
-  background: #d85e4b url("images/hospital.svg") no-repeat center;
+  background: #d85e4b url('images/hospital.svg') no-repeat center;
   font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
@@ -620,6 +620,19 @@ main .hospital-container {
 
   .copyright .line-break {
     display: block;
+  }
+
+  body main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  main .filter-section {
+    order: 2;
+  }
+
+  main .result-section {
+    order: 1;
   }
 
   .filter-section .filter-container {
