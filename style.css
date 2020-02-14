@@ -65,7 +65,7 @@ body .logo-text {
 main .search-container {
   position: relative;
   background: url("images/hero.jpg") 0 0/cover no-repeat;
-  height: 75vh;
+  height: 85vh;
   color: #fff;
 }
 
@@ -76,7 +76,7 @@ main .search-container {
   bottom: 0;
   left: 0;
   z-index: 1;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.219);
 }
 
 .search-container .content {
