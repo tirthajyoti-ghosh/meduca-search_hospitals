@@ -658,7 +658,7 @@ main .hospital-container {
 
   .result-container .result {
     height: 150px;
-    padding: 70px 0;
+    padding: 65px 0;
   }
 
   main .hospital-container {
@@ -849,6 +849,11 @@ main .hospital-container {
     display: flex;
     flex-direction: column;
     text-align: center;
+  }
+
+  .result-section .result-title {
+    font-size: 20px;
+    padding: 0 20px;
   }
 
   .result-section .result-container {
