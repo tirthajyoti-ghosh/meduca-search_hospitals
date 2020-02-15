@@ -30,7 +30,12 @@
 
 ## Live Demo
 
-[Live Demo](https://socialist-terms.000webhostapp.com/)
+[Live Demo](https://socialist-terms.000webhostapp.com/meduca/)
+
+## Project Presentation
+
+[Watch video](https://www.loom.com/share/558ccb0b622d4c60b8714163b64b0ea0)
+
 
 ## 🤝 Contributing
 
