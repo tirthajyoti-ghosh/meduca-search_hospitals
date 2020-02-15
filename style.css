@@ -21,6 +21,10 @@ header {
   background-color: #d35649;
 }
 
+body .d-none {
+  display: none;
+}
+
 header .navbar {
   display: flex;
   justify-content: space-between;
