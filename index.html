@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css">
+  <title>Meduca - Search hosptals</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a class="logo" href="index.html">
+        <img class="logo-img" src="images/logo.svg" alt="">
+        <span class="logo-text">meduca</span>
+      </a>
+      <ul class="menu">
+        <li class="menu-item">
+          <a href="#">
+            <i class="fas fa-search"></i>&nbsp;
+            <span class="menu-text">hospitals</span>
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="#">
+            <i class="far fa-user"></i>&nbsp;
+            <span class="menu-text">about</span>
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="#">
+            <i class="fas fa-rss"></i>&nbsp;
+            <span class="menu-text">blog</span>
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="#">
+            <i class="fas fa-bars"></i>&nbsp;
+            <span class="menu-text">more</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="find-a-hospital" class="search-container">
+      <div class="overlay"></div>
+      <div class="content">
+        <h1 class="heading">
+          Get the best healthcare from the best hospitals.
+        </h1>
+        <form action="result.html" method="post">
+          <label class="search-label" for="search">search by keyword:</label>
+          <br>
+          <input type="text" name="search" id="search"><button class="search-btn">SEARCH</button>
+        </form>
+        <a class="how" href="#how-it-works">How it works</a>
+      </div>      
+    </section>
+
+    <section id="how-it-works" class="working">
+      <h2 class="working-title"><span class="logo-text">meduca</span> works in four simple steps</h2>
+      <div class="working-container">
+        <div class="step">
+          <img class="step-img" src="images/search.svg" alt="search">
+          <h3 class="step-title">1- search</h3>
+          <p class="step-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint libero rerum, distinctio nostrum perspiciatis itaque iure similique eius molestias maiores tempora voluptas voluptatum esse obcaecati sit ullam, deleniti earum accusantium?</p>
+        </div>
+
+        <div class="step">
+          <img class="step-img" src="images/locate.svg" alt="search">
+          <h3 class="step-title">2- locate</h3>
+          <p class="step-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint libero rerum, distinctio nostrum perspiciatis itaque iure similique eius molestias maiores tempora voluptas voluptatum esse obcaecati sit ullam, deleniti earum accusantium?</p>
+        </div>
+
+        <div class="step">
+          <img class="step-img" src="images/contact.svg" alt="search">
+          <h3 class="step-title">3- contact</h3>
+          <p class="step-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint libero rerum, distinctio nostrum perspiciatis itaque iure similique eius molestias maiores tempora voluptas voluptatum esse obcaecati sit ullam, deleniti earum accusantium?</p>
+        </div>
+
+        <div class="step">
+          <img class="step-img" src="images/get-well.svg" alt="search">
+          <h3 class="step-title">4- get well soon</h3>
+          <p class="step-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint libero rerum, distinctio nostrum perspiciatis itaque iure similique eius molestias maiores tempora voluptas voluptatum esse obcaecati sit ullam, deleniti earum accusantium?</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="feature-container">
+      <div class="feature feature1">
+        <div class="text">
+          <h4 class="feature-heading">Over 1,00,000 hospitals registered with us</h4>
+          <p class="feature-text">Just type a keyword and hit enter</p>
+          <a class="feature-btn" href="#find-a-hospital">Find a hospital</a>
+        </div>
+        <img class="feature-img" src="images/feature-1.jpg" alt="">
+      </div>
+
+      <div class="feature feature2">
+        <div class="text">
+          <h4 class="feature-heading">Get the best healthcare right from your doorstep</h4>
+          <p class="feature-text">We only show you hospitals that has passed and maintain our extensive quality checks</p>
+          <a class="feature-btn" href="#find-a-hospital">Find a hospital</a>
+        </div>
+        <img class="feature-img" src="images/feature-2.jpg" alt="">
+      </div>
+
+      <div class="feature feature3">
+        <div class="text">
+          <h4 class="feature-heading">Anytime anywhere any way</h4>
+          <p class="feature-text">Very convenient platforms that cut across any device including our mobile ready web app and our mobile app coming soon to your app store</p>
+          <a class="feature-btn" href="#find-a-hospital">Find a hospital</a>
+        </div>
+        <img class="feature-img" src="images/feature-3.png" alt="">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-links">
+      <ul class="footer-menu">
+        <li><a href="#">home</a></li>
+        <li><a href="#">search</a></li>
+        <li><a href="#">about us</a></li>
+        <li><a href="#">advertise</a></li>
+      </ul>
+      <a class="footer-logo" href="#">
+        <img class="logo-img" src="images/logo.svg" alt="logo">
+        <span class="logo-text"> meduca</span>
+      </a>
+      <ul class="footer-menu">
+        <li><a href="#">facebook</a></li>
+        <li><a href="#">twitter</a></li>
+        <li><a href="#">blog</a></li>
+        <li><a href="#">google +</a></li>
+      </ul>
+    </div>
+
+    <div class="company">
+      <div class="subscribe">
+        <h2 class="company-heading">subscribe</h2>
+        <input type="text" name="subscribe" id="subscribe" placeholder="yourmail@example.com"><button type="submit">SEND</button>
+      </div>
+
+      <div class="contact">
+        <h2 class="company-heading">contact</h2>
+        <p class="company-text">Have a question or submission?</p>
+        <a class="company-link" href="mailto:info@meduca.com">info@meduca.com</a>
+      </div>
+
+      <div class="about">
+        <h2 class="company-heading">about</h2>
+        <p class="company-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio rem beatae, totam culpa corrupti cum Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, architecto <a class="company-link" href="#">Learn more...</a></p>
+      </div>
+    </div>
+
+    <div class="footer">
+      <ul class="social">
+        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="#"><i class="fas fa-envelope"></i></a></li>
+      </ul>
+
+      <div class="copyright">
+        <p>Design idea by <a class="copyright-link" href="https://www.behance.net/mathewnjuguna">Mathew Njuguna and others on Behance</a>. <br class="line-break"> <br class="mobile-line-break"> Brought to life by <a href="https://github.com/tirthajyoti-ghosh">Tirthajyoti Ghosh</a></p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
