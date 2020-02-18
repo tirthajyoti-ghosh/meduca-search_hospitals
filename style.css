@@ -520,7 +520,6 @@ main .hospital-container {
 
 .contact-details .contact {
   display: flex;
-  flex-wrap: wrap;
   align-items: baseline;
   font-size: 14px;
   padding: 20px 20px 20px 0;
@@ -862,6 +861,10 @@ main .hospital-container {
 
   .result-container .result {
     width: 75%;
+  }
+
+  main .hospital-container {
+    margin: 50px 15px;
   }
 
   .hospital-container .hospital-title {
