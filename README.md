@@ -1,6 +1,13 @@
 # Meduca - Search hospitals
 
-![demo image](images/demo.png)
+Home page
+![index page demo image](images/demo-home.png)
+
+Result page
+![result page demo image](images/demo-result.png)
+
+Hospital page
+![hospital page demo image](images/demo-hospital.png)
 
 # What it does
 
