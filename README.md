@@ -1,5 +1,7 @@
 # Meduca - Search hospitals
 
+A multi-page hospital search website(front-end) built from PSD design for a hypothetical business.
+
 Home page
 ![index page demo image](images/demo-home.png)
 
