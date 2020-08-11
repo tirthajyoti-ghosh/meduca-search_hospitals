@@ -2,13 +2,13 @@
 
 A multi-page hospital search website(front-end) built from PSD design for a hypothetical business.
 
-Home page
+#### Home page
 ![index page demo image](images/demo-home.png)
 
-Result page
+#### Result page
 ![result page demo image](images/demo-result.png)
 
-Hospital page
+#### Hospital page
 ![hospital page demo image](images/demo-hospital.png)
 
 # What it does
